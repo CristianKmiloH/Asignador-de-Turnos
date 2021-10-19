@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+    width: 80%;
+    height: 100px;
+}
+h2{
+    text-align: center;
+    background-color: rgb(51, 139, 95);
+}
+h3{
+    text-align: center;
+    background-color: rgb(145, 59, 95);
+}
+body{
+    background-color: cadetblue;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100hv;
+    margin: 0;  
+}
+.contPrinc{
+    background-color: khaki;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+.header{
+    /* display: flex; */
+}
+.logo{
+    height: 125px;
+    width: 125px;
+}
+.headerAlt{
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+.form{
+    padding: 30px 40px;
+}
+.controlForm{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.controlForm label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.controlForm input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.controlForm input:focus{
+    outline: 0;
+    border-color: #777;
+}
+.controlForm.success input{
+    border-color: #2ecc71;
+}
+.controlForm i{
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.controlForm.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+.controlForm.success i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+.controlForm small{
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.controlForm.error small{
+    visibility: visible;
+}
+.form button{
+    background-color: #9b59b6;
+    border: 2px solid #9b59b6;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+
+.datos{
+    background-color: burlywood;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
